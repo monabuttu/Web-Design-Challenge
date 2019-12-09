@@ -1,0 +1,24 @@
+.navbar {
+    min-height: 100px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.navbar-toggler {
+    margin-top: 23px;
+    padding: 9px 10px !important;
+}
+
+h1 {
+    color: cadetblue
+    ;
+}
+
+body {
+    background-color: gainsboro
+    ;
+}
