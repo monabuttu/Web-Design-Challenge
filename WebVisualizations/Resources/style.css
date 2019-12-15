@@ -18,7 +18,45 @@ h1 {
     ;
 }
 
-body {
-    background-color: gainsboro
+h3 {
+    color: cadetblue;
+    padding-top: 5px;
     ;
+}
+
+footer {
+    background-color: teal;
+}
+.pagecontainer {
+    padding: 60px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color:gainsboro;
+}
+body {
+    background-color:whitesmoke
+    ;
+}
+
+.pic_size {
+    min-width: 50px;
+}
+.visuals {
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.textpadding {
+    padding-top: 10px; 
+}
+.visuals article {
+    min-width: 50%;
+    flex: 1;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 406px) {
+    .visuals {
+      flex-flow: row nowrap;
+    }
 }
